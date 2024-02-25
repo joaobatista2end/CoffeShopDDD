@@ -1,0 +1,9 @@
+@baseUrl = http://localhost:3000
+
+# @name fetch_coffes
+GET {{baseUrl}}/api/coffes
+
+###
+
+# @name delete_coffe
+DELETE {{baseUrl}}/api/coffes/1
